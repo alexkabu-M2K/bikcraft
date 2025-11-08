@@ -4,18 +4,19 @@ const Link = ({
     referencia,
     tamanhoFonte,
     pesoFonte,
-    corFonte,
     caixaFonte,
     espaçamentoFonte,
+    sobreFonte,
 
 }) => {
 
     const style = `
     ${tamanhoFonte}
     ${pesoFonte}
-    ${corFonte}
     ${caixaFonte}
     ${espaçamentoFonte} 
+    ${sobreFonte}
+    
     
     `;
     return (

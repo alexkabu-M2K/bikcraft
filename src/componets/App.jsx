@@ -38,8 +38,9 @@ const App = () => {
                 tamanhoFonte='text-lg'
                 pesoFonte='font-semibold'
                 caixaFonte='uppercase'
-                corFonte='text-white'
-                espaçamentoFonte='mx-4'
+                espaçamentoFonte='tracking-[0.15rem]'
+                sobreFonte='hover:text-yellow-500'
+
               
               >
                 
