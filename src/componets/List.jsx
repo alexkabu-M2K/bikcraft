@@ -1,7 +1,21 @@
+const List = ({
+    children,
+    modeloCaixa,
+    distanciamento,
+    texto,
 
-const List = ({ children }) => {
+}) => {
+
+    const style = `
+    ${modeloCaixa}
+    ${distanciamento}
+    ${texto}
+    
+    
+    `;
     return (
-        <ul> {children} </ul>
+        <ul className={style}>{children}</ul>
     );
+
 }
 export default List;  

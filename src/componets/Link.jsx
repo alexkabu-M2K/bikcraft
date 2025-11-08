@@ -7,6 +7,7 @@ const Link = ({
     caixaFonte,
     espaçamentoFonte,
     sobreFonte,
+    transição
 
 }) => {
 
@@ -16,7 +17,8 @@ const Link = ({
     ${caixaFonte}
     ${espaçamentoFonte} 
     ${sobreFonte}
-    
+    ${transição}
+
     
     `;
     return (
