@@ -5,7 +5,9 @@ const Header = ({
     corFonte,
     altura,
     preenchimento,
-
+    modeloCaixa,
+    justicarConteudo,
+    alinharItens,
 
 }) => {
 
@@ -14,11 +16,12 @@ const Header = ({
                     ${corFonte} 
                     ${altura}
                     ${preenchimento}
-                    
-                    
-                    
-                    
-                `;
+                    ${modeloCaixa}
+                    ${justicarConteudo}
+                    ${alinharItens}
+
+  
+ `;
 
 
 

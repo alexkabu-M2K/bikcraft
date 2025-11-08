@@ -5,7 +5,7 @@ const Logo = ({
     pesoFonte,
     caixaFonte,
     espaçamentofonte,
-    
+
 
 
 }) => {
