@@ -1,7 +1,27 @@
 
-const Header = ({ children }) => {
+const Header = ({
+    children,
+    corFundo,
+    corFonte,
+    altura,
+    preenchimento,
 
-    /* const style = "bg-black flex justify-between items-center pt-[0] pr-25 pb-[0] pl-25 text-white text-2xl font-mono h-[3.5rem]";*/
+
+}) => {
+
+    const style = `
+                    ${corFundo} 
+                    ${corFonte} 
+                    ${altura}
+                    ${preenchimento}
+                    
+                    
+                    
+                    
+                `;
+
+
+
 
     return <header className={style}>{children}</header>
 };
