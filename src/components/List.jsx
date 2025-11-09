@@ -1,16 +1,16 @@
 
 const List = ({
-    children,
-    modeloCaixa,
-    distanciamento,
+  children,
+  modeloCaixa,
+  distanciamento
 }) => {
 
-    const style = `
+  const style = `
     ${modeloCaixa}
-    ${distanciamento}   
-    `;
+    ${distanciamento}
+  `;
 
-    return <ul className={style}>{children}</ul>;
+  return <ul className={style}>{children}</ul>;
 }
 
-export default List;  
+export default List;

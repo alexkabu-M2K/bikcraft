@@ -15,17 +15,15 @@ const App = () => {
         altura='h-[6rem]'
         preenchimento='px-50'
         modeloCaixa='flex'
-        justificarConteudo='justify-between'
-        alinharItens='items-center'
-
+        justificacao='justify-between'
+        alinhamento='items-center'
       >
         <Logo
-          text='BikCraft - Bike Store'
-          tamanhoFonte='text-5xl'
-          corFonte='text-white'
-          pesoFonte='font-bold'
+          texto='bikcraft - Eletric Bike Store'
+          tamanhoFonte='text-4xl'
+          pesoFonte='font-black'
           caixaFonte='uppercase'
-          espaçamentoFonte='tracking-[0.5rem]'
+          espacamentoFonte='tracking-[0.25rem]'
         />
         <Navigation>
           <List
@@ -34,36 +32,38 @@ const App = () => {
           >
             <Item>
               <Link
-                texto='Modelos'
+                texto='Models'
                 referencia='#'
                 tamanhoFonte='text-lg'
-                pesoFonte='font-semibold'
+                pesoFonte='font-bold'
                 caixaFonte='uppercase'
-                espaçamentoFonte='tracking-[0.15rem]'
+                espacamentoFonte='tracking-[0.15rem]'
                 sobreFonte='hover:text-yellow-500'
-                transição='duration-200'
+                transicao='duration-200'
               />
-              <Item>
-                <Link
-                  texto='Contato'
-                  referencia='#'
-                  tamanhoFonte='text-lg'
-                  pesoFonte='font-semibold'
-                  caixaFonte='uppercase'
-                  espaçamentoFonte='tracking-[0.15rem]'
-                  sobreFonte='hover:text-yellow-500'
-                  transição='duration-200'
-                />
-              </Item>
+            </Item>
+            <Item>
               <Link
-                texto='Sobre'
+                texto='Contact'
                 referencia='#'
                 tamanhoFonte='text-lg'
-                pesoFonte='font-semibold'
+                pesoFonte='font-bold'
                 caixaFonte='uppercase'
-                espaçamentoFonte='tracking-[0.15rem]'
+                espacamentoFonte='tracking-[0.15rem]'
                 sobreFonte='hover:text-yellow-500'
-                transição='duration-200'
+                transicao='duration-200'
+              />
+            </Item>
+            <Item>
+              <Link
+                texto='About'
+                referencia='#'
+                tamanhoFonte='text-lg'
+                pesoFonte='font-bold'
+                caixaFonte='uppercase'
+                espacamentoFonte='tracking-[0.15rem]'
+                sobreFonte='hover:text-yellow-500'
+                transicao='duration-200'
               />
             </Item>
           </List>

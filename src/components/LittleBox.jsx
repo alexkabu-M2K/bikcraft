@@ -1,6 +1,6 @@
 
 const LittleBox = () => {
-    return <span></span>;
+  return <span></span>;
 };
 
 export default LittleBox;

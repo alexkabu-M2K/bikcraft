@@ -1,6 +1,6 @@
 
 const Paragraph = () => {
-    return <p></p>;
+  return <p></p>;
 };
 
 export default Paragraph;

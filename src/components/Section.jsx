@@ -1,6 +1,6 @@
 
 const Section = () => {
-    return <section></section>;
+  return <section></section>;
 };
 
 export default Section;

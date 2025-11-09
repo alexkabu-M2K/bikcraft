@@ -7,5 +7,5 @@ const root = document.querySelector('#root');
 createRoot(root).render(
   <StrictMode>
     <App />
-  </StrictMode>,
+  </StrictMode>
 );

@@ -1,25 +1,25 @@
 
 const Link = ({
-    texto,
-    referencia,
-    tamanhoFonte,
-    pesoFonte,
-    caixaFonte,
-    espaçamentoFonte,
-    sobreFonte,
-    transição
+  texto,
+  referencia,
+  tamanhoFonte,
+  pesoFonte,
+  caixaFonte,
+  espacamentoFonte,
+  sobreFonte,
+  transicao
 }) => {
 
-    const style = `
+  const style = `
     ${tamanhoFonte}
     ${pesoFonte}
     ${caixaFonte}
-    ${espaçamentoFonte} 
+    ${espacamentoFonte}
     ${sobreFonte}
-    ${transição}    
- `;
+    ${transicao}
+  `;
 
-    return <a className={style} href={referencia}>{texto}</a>;
+  return <a className={style} href={referencia}>{texto}</a>;
 }
 
-export default Link;  
+export default Link;

@@ -1,20 +1,20 @@
 
 const Logo = ({
-    text,
-    tamanhoFonte,
-    pesoFonte,
-    caixaFonte,
-    espaçamentoFonte,
+  texto,
+  tamanhoFonte,
+  pesoFonte,
+  caixaFonte,
+  espacamentoFonte
 }) => {
 
-    const style = `
-        ${tamanhoFonte}
-        ${pesoFonte}
-        ${caixaFonte}
-        ${espaçamentoFonte}     
-     `;
+  const style = `
+    ${tamanhoFonte}
+    ${pesoFonte}
+    ${caixaFonte}
+    ${espacamentoFonte}
+  `;
 
-    return <span className={style}>{texto}</span>;
+  return <span className={style}>{texto}</span>;
 }
 
 export default Logo;
