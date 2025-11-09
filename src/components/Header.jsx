@@ -12,19 +12,14 @@ const Header = ({
 }) => {
 
     const style = `
-                    ${corFundo} 
-                    ${corFonte} 
-                    ${altura}
-                    ${preenchimento}
-                    ${modeloCaixa}
-                    ${justicarConteudo}
-                    ${alinharItens}
-
-  
+        ${corFundo} 
+        ${corFonte} 
+        ${altura}
+        ${preenchimento}
+        ${modeloCaixa}
+        ${justicarConteudo}
+        ${alinharItens}  
  `;
-
-
-
 
     return <header className={style}>{children}</header>
 };

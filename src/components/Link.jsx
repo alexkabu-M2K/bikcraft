@@ -8,7 +8,6 @@ const Link = ({
     espaçamentoFonte,
     sobreFonte,
     transição
-
 }) => {
 
     const style = `
@@ -17,13 +16,10 @@ const Link = ({
     ${caixaFonte}
     ${espaçamentoFonte} 
     ${sobreFonte}
-    ${transição}
+    ${transição}    
+ `;
 
-    
-    `;
-    return (
-        <a className={style}  href={referencia}>{texto}</a>
-    );
-
+    return <a className={style} href={referencia}>{texto}</a>;
 }
+
 export default Link;  

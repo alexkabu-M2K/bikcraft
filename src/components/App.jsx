@@ -6,7 +6,6 @@ import List from './List.jsx';
 import Item from './Item.jsx';
 import Link from './Link.jsx';
 
-
 const App = () => {
   return (
     <>
@@ -17,8 +16,7 @@ const App = () => {
         preenchimento='px-50'
         modeloCaixa='flex'
         justificarConteudo='justify-between'
-        alinharItens='items-bottom'
-
+        alinharItens='items-center'
 
       >
         <Logo
@@ -32,7 +30,8 @@ const App = () => {
         <Navigation>
           <List
             modeloCaixa='flex'
-            distanciamento='gap-10'>
+            distanciamento='gap-10'
+          >
             <Item>
               <Link
                 texto='Modelos'
@@ -42,22 +41,20 @@ const App = () => {
                 caixaFonte='uppercase'
                 espaçamentoFonte='tracking-[0.15rem]'
                 sobreFonte='hover:text-yellow-500'
-                transição='transition-colors duration-600'
-              >
-              </Link>
-
-              <Link
-                texto='Contato'
-                referencia='#'
-                tamanhoFonte='text-lg'
-                pesoFonte='font-semibold'
-                caixaFonte='uppercase'
-                espaçamentoFonte='tracking-[0.15rem]'
-                sobreFonte='hover:text-yellow-500'
-                transição='transition-colors duration-[0.5s]'
-              >
-              </Link>
-
+                transição='duration-200'
+              />
+              <Item>
+                <Link
+                  texto='Contato'
+                  referencia='#'
+                  tamanhoFonte='text-lg'
+                  pesoFonte='font-semibold'
+                  caixaFonte='uppercase'
+                  espaçamentoFonte='tracking-[0.15rem]'
+                  sobreFonte='hover:text-yellow-500'
+                  transição='duration-200'
+                />
+              </Item>
               <Link
                 texto='Sobre'
                 referencia='#'
@@ -66,21 +63,14 @@ const App = () => {
                 caixaFonte='uppercase'
                 espaçamentoFonte='tracking-[0.15rem]'
                 sobreFonte='hover:text-yellow-500'
-                transição='transition-colors duration-[1s]'
-              >
-              </Link>
-
+                transição='duration-200'
+              />
             </Item>
           </List>
         </Navigation>
-
-
-
-
-
       </Header>
     </>
   );
 }
 
-export default App
+export default App;
